@@ -31,3 +31,9 @@ function subtractTwoNumbers(num1, num2) {
 }
 const subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
 console.log(subtractTwoNumbersResult);
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+const getCircleCircumferenceResult = getCircleCircumference(5);
+console.log(getCircleCircumferenceResult);
