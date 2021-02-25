@@ -43,3 +43,9 @@ function getFullName(firstName, lastName) {
 }
 const getFullNameResult = getFullName('Juan', 'Ramirez');
 console.log(getFullNameResult);
+
+function cube(number) {
+  return number * 25;
+}
+const cubeResult = cube(5);
+console.log(cubeResult);
