@@ -8,3 +8,9 @@ function convertHoursToMinutes(number) {
 }
 const convertHoursToMinutesResult = convertHoursToMinutes(2);
 console.log(convertHoursToMinutesResult);
+
+function personalizedGreeting(name) {
+  return 'Hello ' + name;
+}
+const personalizedGreetingResult = personalizedGreeting('World');
+console.log(personalizedGreetingResult);
